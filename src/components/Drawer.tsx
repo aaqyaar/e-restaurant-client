@@ -21,14 +21,11 @@ export default function Drawer({
   onClose,
   ...rest
 }: Props) {
-  console.log(position.slice(0, 1));
   return (
     <div
       className={`fixed ${position}-0 ${
         open ? 'block' : 'hidden'
-      } bg-gray-900 border-${position.slice(0, 1)}-2 border-gray-700 ${
-        className ? className : ''
-      }`}
+      } bg-gray-900 border-r-2 border-gray-700 ${className ? className : ''}`}
       style={{
         width,
         height
