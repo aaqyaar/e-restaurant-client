@@ -23,9 +23,11 @@ export default function Drawer({
 }: Props) {
   return (
     <div
-      className={`fixed ${position}-0 ${
+      className={`relative ${
         open ? 'block' : 'hidden'
-      } bg-gray-900 border-r-2 border-gray-700 ${className ? className : ''}`}
+      } bg-gray-900 border-r-2 border-gray-700 h-full ${
+        className ? className : ''
+      }`}
       style={{
         width,
         height
