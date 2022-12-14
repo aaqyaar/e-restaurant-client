@@ -1,22 +1,55 @@
-# cra-template-tailwindcss-typescript
+# E-Restaurant Admin Client
 
-A streamlined [Tailwind CSS v3.1](https://tailwindcss.com) template for [Create React App](https://github.com/facebook/create-react-app) in [TypeScript](https://www.typescriptlang.org/).
+E-Restaurant is a content management system used to manage restaurant remotely or locally,
+allows you to get the data of industry and simplifies how you can manage your business
 
-> This template installs and sets up [Tailwind CSS](https://tailwindcss.com) with TypeScript support.
+## Environment Variables
 
-## Usage
+To run this project, you will need to add the following environment variables to your .env file
+
+`API_KEY`
+
+`ANOTHER_API_KEY`
+
+## Features
+
+- Light/dark mode toggle
+- Live previews
+- Fullscreen mode
+- Cross platform
+
+## Run Locally
+
+Clone the project
 
 ```bash
-npx create-react-app --template tailwindcss-typescript
+  git clone https://link-to-project
 ```
 
-## Credits
+Go to the project directory
 
-This project was made possible thanks to the following projects.
+```bash
+  cd my-project
+```
 
-1. [GeoffSelby/cra-template-tailwindcss](https://github.com/GeoffSelby/cra-template-tailwindcss) - A streamlined Tailwind CSS template for Create React App (in JavaScript).
-2. [cra-template-typescript](https://github.com/facebook/create-react-app/tree/master/packages/cra-template-typescript) - An official TypeScript template for create-react-app.
+Install dependencies
 
-## License
+```bash
+  npm install
+```
 
-MIT © [Sung M. Kim](https://sung.codes)
+Start the server
+
+```bash
+  npm run start
+```
+
+## Usage/Examples
+
+```javascript
+import Component from 'my-project';
+
+function App() {
+  return <Component />;
+}
+```
