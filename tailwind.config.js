@@ -10,6 +10,10 @@ module.exports = {
       },
       colors: {
         ...colors,
+        neutral: colors.blueGray,
+        gray: colors.coolGray,
+        stone: colors.warmGray,
+        sky: colors.lightBlue,
         primary: {
           50: '#f2f8ff',
           100: '#e6f1ff',
