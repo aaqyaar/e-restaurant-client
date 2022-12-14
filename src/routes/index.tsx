@@ -1,4 +1,5 @@
 import { DashboardLayout } from 'layouts/dashboard';
+import NotFound from 'pages/404';
 import User from 'pages/User';
 import { useRoutes } from 'react-router-dom';
 import { PATH } from './path';
@@ -15,9 +16,11 @@ const appRoutes = [
       // { path: PATH.app.dashboard, element: <Users /> },
 
       { path: PATH.users.list, element: <User /> }
-
-      // { path: '*', element: <Navigate to={PATH.app.dashboard} /> },
     ]
+  },
+  {
+    path: '*',
+    element: <NotFound />
   }
 ];
 
